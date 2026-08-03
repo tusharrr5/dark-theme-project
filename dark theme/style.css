@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#ffffff;
+    color:#000000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    transition:0.4s;
+}
+
+.container{
+    text-align:center;
+}
+
+h1{
+    margin-bottom:15px;
+}
+
+p{
+    margin-bottom:20px;
+}
+
+button{
+    padding:12px 25px;
+    font-size:16px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    background:#333;
+    color:white;
+}
+
+/* Dark Theme */
+
+.dark{
+    background:#121212;
+    color:white;
+}
+
+.dark button{
+    background:#00bcd4;
+    color:white;
+}
